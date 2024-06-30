@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today Weather</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search_feild">
+            <input id="location" type="text" placeholder="Enter Location">
+            <i class="ri-search-2-line" id="search_icon"></i>
+        </div>
+        <div class="main">
+            <div class="image"> <img src="snow.png" alt=""></div>
+           
+            <div class="details">
+                <div class="tempature">35°C</div>
+                <div class="city_name">Uttrakhand</div>
+            </div>
+        <div class="info">
+            <div class="wind_humidity">
+                <i class="ri-windy-line"></i>
+                <div class="speed">
+                    <p id="wind">135 kmh</p>
+                    <h5>Wind Speed</h5>
+                </div>
+            </div>
+            <div class="wind_humidity">
+                <i class="ri-water-percent-line"></i>
+                <div class="speed">
+                    <p id="humidity">29 %</p>
+                    <h5>Humidity</h5>
+                </div>
+            </div>
+        </div>
+
+        </div>
+          
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

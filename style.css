@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 35, 35);
+}
+
+.container{
+    background: linear-gradient(#03001e,#7303c0,#ec38bc,#fdeff9);
+    width: 50%;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search_feild{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 60%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 5px;
+}
+
+.search_feild i{
+   font-size: 30px;
+   
+    cursor: pointer;
+    color: #fffbfb;
+   
+   
+}
+
+.search_feild i:hover{
+    color: #c5b2b2;
+}
+
+.main{
+    display: none;
+}
+
+.image{
+    width: 180px;
+    height: 180px;
+    margin: 60px auto 30px auto;
+    
+
+}
+.image img{
+    width: 100%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details .tempature{
+    font-size: 5vw;
+}
+
+.city_name{
+    font-size: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.wind_humidity{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.wind_humidity i{
+    font-size: 5vh;
+}
+
+
+@media (max-width:650px) {
+    .container{
+        width: 70%;
+    }
+    
+}
+
+@media (max-width:450px) {
+    
+.container{
+    width: 90%;
+   
+}
+
+input{
+    width: 70%;
+    font-size: 15px;
+}
+
+
+}
